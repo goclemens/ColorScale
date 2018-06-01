@@ -1,0 +1,24 @@
+{
+  "name": "hw-colorscale",
+  "version": "0.1.0",
+  "description": "d3 based color scaling object",
+  "main": "/src/ColorScale.js",
+  "directories": {
+    "example": "example",
+    "lib": "src",
+    "bin": "builds"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "Clemens Hübner-Worseck",
+  "license": "MIT",
+  "dependencies": {
+    "d3-scale": "^2.0.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
